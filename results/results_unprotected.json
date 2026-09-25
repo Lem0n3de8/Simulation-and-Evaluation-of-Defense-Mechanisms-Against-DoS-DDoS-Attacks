@@ -1,0 +1,162 @@
+{
+  "0.25 CPU / 128 MB": {
+    "config": {
+      "cpus": "0.25",
+      "memory": "128m",
+      "label": "0.25 CPU / 128 MB"
+    },
+    "protected": false,
+    "attacks": {
+      "http_flood": {
+        "total": 19711,
+        "successes": 19711,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 982.72,
+        "avg_latency_ms": 101.89,
+        "p95_latency_ms": 162.83
+      },
+      "slowloris": {
+        "sockets_opened": 150,
+        "sockets_failed": 0,
+        "keep_alive_sends": 150,
+        "probe_avg_latency_ms": null,
+        "probe_failures": 3
+      },
+      "ddos_sim": {
+        "total": 10906,
+        "successes": 10906,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 75.07,
+        "avg_latency_ms": 165.94,
+        "p95_latency_ms": 296.29,
+        "num_sources": 8
+      }
+    }
+  },
+  "0.5 CPU / 256 MB": {
+    "config": {
+      "cpus": "0.5",
+      "memory": "256m",
+      "label": "0.5 CPU / 256 MB"
+    },
+    "protected": false,
+    "attacks": {
+      "http_flood": {
+        "total": 34534,
+        "successes": 34534,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 1700.67,
+        "avg_latency_ms": 58.44,
+        "p95_latency_ms": 115.56
+      },
+      "slowloris": {
+        "sockets_opened": 150,
+        "sockets_failed": 0,
+        "keep_alive_sends": 150,
+        "probe_avg_latency_ms": null,
+        "probe_failures": 3
+      },
+      "ddos_sim": {
+        "total": 28970,
+        "successes": 28970,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 165.37,
+        "avg_latency_ms": 83.04,
+        "p95_latency_ms": 183.38,
+        "num_sources": 8
+      }
+    }
+  },
+  "1.0 CPU / 512 MB": {
+    "config": {
+      "cpus": "1.0",
+      "memory": "512m",
+      "label": "1.0 CPU / 512 MB"
+    },
+    "protected": false,
+    "attacks": {
+      "http_flood": {
+        "total": 41523,
+        "successes": 41523,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 1899.42,
+        "avg_latency_ms": 51.36,
+        "p95_latency_ms": 133.51
+      },
+      "slowloris": {
+        "sockets_opened": 150,
+        "sockets_failed": 0,
+        "keep_alive_sends": 150,
+        "probe_avg_latency_ms": null,
+        "probe_failures": 3
+      },
+      "ddos_sim": {
+        "total": 49408,
+        "successes": 49408,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 282.06,
+        "avg_latency_ms": 48.75,
+        "p95_latency_ms": 91.54,
+        "num_sources": 8
+      }
+    }
+  },
+  "2.0 CPU / 1 GB": {
+    "config": {
+      "cpus": "2.0",
+      "memory": "1g",
+      "label": "2.0 CPU / 1 GB"
+    },
+    "protected": false,
+    "attacks": {
+      "http_flood": {
+        "total": 42149,
+        "successes": 42149,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 1902.72,
+        "avg_latency_ms": 50.83,
+        "p95_latency_ms": 132.11
+      },
+      "slowloris": {
+        "sockets_opened": 150,
+        "sockets_failed": 0,
+        "keep_alive_sends": 150,
+        "probe_avg_latency_ms": null,
+        "probe_failures": 3
+      },
+      "ddos_sim": {
+        "total": 78307,
+        "successes": 78307,
+        "rate_limited": 0,
+        "failures": 0,
+        "success_rate": 100.0,
+        "block_rate": 0.0,
+        "req_per_sec": 391.17,
+        "avg_latency_ms": 30.73,
+        "p95_latency_ms": 61.36,
+        "num_sources": 8
+      }
+    }
+  }
+}
