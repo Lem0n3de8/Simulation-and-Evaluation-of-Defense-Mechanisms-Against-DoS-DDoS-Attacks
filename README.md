@@ -26,24 +26,24 @@ The project also evaluates the effectiveness of per-IP rate limiting using Flask
 
 ## Repository Structure
 
-```
-attacks/
-    http_flood.py
-    slowloris.py
-    ddos_sim.py
-
-server/
-    app.py
-    Dockerfile
-
-results/
-    graphs/
-
-benchmark.py
-visualize.py
-
-report-en.pdf
-report-fr.pdf
+```text
+.
+├── attacks/
+│   ├── http_flood.py
+│   ├── slowloris.py
+│   └── ddos_sim.py
+├── server/
+│   ├── app.py
+│   ├── app_protected.py
+│   └── Dockerfile
+├── results/
+│   └── graphs/
+├── benchmark.py
+├── visualize.py
+├── report-en.pdf
+├── report-fr.pdf
+├── README.md
+└── requirements.txt
 ```
 
 ## Installation
